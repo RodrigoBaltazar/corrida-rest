@@ -40,10 +40,7 @@ class RaceRunnerController extends Controller
         $runner_id = $request->input('runner_id');
         $race_id = $request->input('race_id'); 
 
-        //$runner = Runner::where('id', '=', $runner_id)->first();
         $race = Race::where('id', '=', $race_id)->first();
-
-        //$verifyRaceRunner = RaceRunner::whereDate('');
 
         $query = DB::select("
             SELECT

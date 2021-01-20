@@ -36,7 +36,7 @@ class CreateRunnersTable extends Migration
         DB::table('runners')->insert([
             [
                 'id' => 2,
-                'name' => 'João',
+                'name' => 'Andreas',
                 'cpf' => '000.000.000-00',
                 'birthday' => '1991-08-14',
                 'created_at' => Carbon::now('America/Sao_paulo'),

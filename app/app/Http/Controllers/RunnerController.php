@@ -40,7 +40,6 @@ class RunnerController extends Controller
         $cpf = $request->input('cpf');
         $birthday = $request->input('birthday');
 
-        //return dd(Carbon::parse($birthday));
         $runnersYears = Carbon::now()->diffInYears($birthday);
         if($runnersYears < 18){
             return response()->json([

@@ -6,6 +6,7 @@ use App\Http\Controllers\RunnerController;
 use App\Http\Controllers\RaceController;
 use App\Http\Controllers\RaceRunnerController;
 use App\Http\Controllers\RunnerResultController;
+use App\Http\Controllers\RankingController;
 
 /*
 |--------------------------------------------------------------------------

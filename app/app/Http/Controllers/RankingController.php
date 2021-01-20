@@ -3,17 +3,25 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Runner;
+use App\Models\RunnerResult;
 
 class RankingController extends Controller
 {
     function byAge(Request $request){
-        //id_prova, tipo prova, id corredor, posicao, nome, posicao
-        
+        /*
+        * Faltou fazer esta parte da classificação por idade.          
+        */
     }
 
     function general(Request $request){
-        //id, tipo prova, id, nome, posicao
+        
+        /*
+        * Faltou fazer esta parte da classificação geral.          
+        */
 
+        // return response()->json([
+        //     'Ranking Runners' => $runners
+        // ], 200);
     }
 }
